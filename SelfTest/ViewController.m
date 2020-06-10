@@ -236,6 +236,7 @@
         return;
     }
     NSLog(@"title =%@",title);
+    NSLog(@"sdasdasdasd");
     
 }
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
