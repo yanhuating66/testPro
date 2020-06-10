@@ -230,14 +230,6 @@
     annotation.subtitle = @"副标题...";
     //添加大头针标注信息
     [mapview addAnnotation:annotation];
-    NSLog(@"真的爱你");
-    NSString *title =@"奶思";
-    if (title.length ==5) {
-        return;
-    }
-    NSLog(@"title =%@",title);
-    NSLog(@"sdasdasdasd");
-    
 }
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
 {
