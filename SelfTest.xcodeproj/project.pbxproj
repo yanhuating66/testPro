@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7602DDCF24907D32002236E4 /* GitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602DDCE24907D32002236E4 /* GitVC.m */; };
 		76315EC723D57BF10081BCA2 /* NearannotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76315EC623D57BF10081BCA2 /* NearannotationView.m */; };
 		76315ECA23D57F220081BCA2 /* ReakAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 76315EC923D57F220081BCA2 /* ReakAnnotation.m */; };
 		76BD4DD923CC520B00B4CA7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BD4DD823CC520B00B4CA7C /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7602DDCD24907D32002236E4 /* GitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitVC.h; sourceTree = "<group>"; };
+		7602DDCE24907D32002236E4 /* GitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitVC.m; sourceTree = "<group>"; };
 		76315EC523D57BF10081BCA2 /* NearannotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearannotationView.h; sourceTree = "<group>"; };
 		76315EC623D57BF10081BCA2 /* NearannotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearannotationView.m; sourceTree = "<group>"; };
 		76315EC823D57F220081BCA2 /* ReakAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReakAnnotation.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				76315EC623D57BF10081BCA2 /* NearannotationView.m */,
 				76315EC823D57F220081BCA2 /* ReakAnnotation.h */,
 				76315EC923D57F220081BCA2 /* ReakAnnotation.m */,
+				7602DDCD24907D32002236E4 /* GitVC.h */,
+				7602DDCE24907D32002236E4 /* GitVC.m */,
 				76BD4DE023CC520B00B4CA7C /* Main.storyboard */,
 				76BD4DE323CC520D00B4CA7C /* Assets.xcassets */,
 				76BD4DE523CC520D00B4CA7C /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76BD4E0E23CC6D1C00B4CA7C /* FirstVC.m in Sources */,
+				7602DDCF24907D32002236E4 /* GitVC.m in Sources */,
 				76BD4DDF23CC520B00B4CA7C /* ViewController.m in Sources */,
 				76BD4DD923CC520B00B4CA7C /* AppDelegate.m in Sources */,
 				76BD4DEA23CC520D00B4CA7C /* main.m in Sources */,
