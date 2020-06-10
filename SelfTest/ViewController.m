@@ -231,6 +231,11 @@
     //添加大头针标注信息
     [mapview addAnnotation:annotation];
     NSLog(@"真的爱你");
+    NSString *title =@"奶思";
+    if (title.length ==5) {
+        return;
+    }
+    NSLog(@"title =%@",title);
     
 }
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
